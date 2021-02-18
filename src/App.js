@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Button from './components/Button';
+import DisplayCard from './components/DisplayCard';
+import Dropdown from './components/Dropdown';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="flex">
+        <div className="flex-1">
+          <Button size="sm" textColor="red-500" bgColor="white" shadow="redDrop" hover="bg-emerald-500 hover:text-white">Donnatron</Button>
+          <Button size="sm" textColor="black" bgColor="white" shadow="blackDrop" hover="bg-red-500 hover:text-white">Donnatron 2</Button>
+        </div>
+        <div className="flex-1">
+          <DisplayCard bgColor="white" textColor="red-500" shadow="redDrop" hover="bg-emerald-500 hover:text-white"/>
+          <DisplayCard bgColor="white" textColor="black" shadow="blackDrop" hover="bg-red-500 hover:text-white"/>
+        </div>
+        <div className="flex-1">
+          <Dropdown bgColor="white" textColor="red-500" shadow="redDrop"/>
+          <Dropdown bgColor="white" textColor="red-500" shadow="blackDrop"/>
+        </div>
+      </div>
     </div>
   );
 }
