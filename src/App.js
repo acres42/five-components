@@ -1,10 +1,12 @@
 import Button from './components/Button';
 import DisplayCard from './components/DisplayCard';
 import Dropdown from './components/Dropdown';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar bgColor="black" shadow="redDrop" btnColor="white" hoverColor="emerald-600"/>
       <div className="flex">
         <div className="flex-1">
           <Button size="sm" textColor="red-500" bgColor="white" shadow="redDrop" hover="bg-emerald-500 hover:text-white">Donnatron</Button>

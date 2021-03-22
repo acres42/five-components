@@ -6,15 +6,11 @@
 
 @layer base {
   body {
-    @apply p-4;
+    @apply pr-4;
   }
 
   button {
     @apply m-4
-  }
-
-  .container {
-    @apply flex flex-col justify-center w-full absolute inset-0;
   }
 
   .icon-gradient {
