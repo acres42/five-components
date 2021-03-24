@@ -2,6 +2,8 @@ import Button from './components/Button';
 import DisplayCard from './components/DisplayCard';
 import Dropdown from './components/Dropdown';
 import Navbar from './components/Navbar';
+import Carousel from './components/Carousel';
+
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
         <div className="flex-1">
           <Dropdown bgColor="white" textColor="red-500" shadow="redDrop"/>
           <Dropdown bgColor="white" textColor="red-500" shadow="blackDrop"/>
+        </div>
+        <div className="flex-1">
+          <Carousel bgColor="white" shadow="redDrop"/>
+          <Carousel bgColor="white" shadow="blackDrop"/>
         </div>
       </div>
     </div>
