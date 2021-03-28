@@ -13,13 +13,13 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
-    "tailwindcss-classnames": "^1.9.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4",
+    "tailwindcss-classnames": "^2.0.7",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d master -d build",
+    "deploy": "gh-pages -d main -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
