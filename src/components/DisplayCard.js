@@ -3,7 +3,7 @@ import {classnames} from 'tailwindcss-classnames';
 function DisplayCard({ shadow, textColor, bgColor, hover, children }) {
   return (
     <div className={classnames(`max-w-xs rounded-xl overflow-hidden bg-${bgColor} my-6 mx-2  shadow-${shadow} text-${textColor} hover:${hover} transform -skew-x-3`)}>
-      <img className="w-full" src={"https://tailwindcss.com/img/card-top.jpg"} alt="Sunset in the mountains" />
+      <img className="w-full" src={"/five-components/images/logo512.png"} alt="React Logo" />
       <div className="px-6 py-4">
         <div className="font-sans font-black text-xl mb-2">The Coldest Sunset</div>
         <p className="text-base">
