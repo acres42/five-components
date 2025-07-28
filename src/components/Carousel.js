@@ -5,15 +5,15 @@ const Carousel = (props) => {
 
     const [slides] = useState([
         {
-            source: "/five-components/images/badkitty1.jpg",
+            source: "/assets/images/badkitty1.jpg",
             title: "Evil"
         },
         {
-            source: "/five-components/images/badkitty2.jpg",
+            source: "/assets/images/badkitty2.jpg",
             title: "No Good"
         },
         {
-            source: "/five-components/images/badkitty3.jpg",
+            source: "/assets/images/badkitty3.jpg",
             title: "Rotten"
         }
     ]);
