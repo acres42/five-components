@@ -1,4 +1,3 @@
-import React from "react";
 import {classnames} from 'tailwindcss-classnames';
 
 function Button ({size, bgColor, hover, textColor, shadow, children}) {

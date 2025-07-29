@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar bgColor="black" shadow="redDrop" btnColor="white" hoverColor="emerald-600"/>
       <div className="flex">
-        <div className="flex-1">
+        <div className="flex gap-4 mt-6 items-start">
           <Button size="sm" textColor="red-500" bgColor="white" shadow="redDrop" hover="bg-emerald-500 hover:text-white">Donnatron</Button>
           <Button size="sm" textColor="black" bgColor="white" shadow="blackDrop" hover="bg-red-500 hover:text-white">Donnatron 2</Button>
         </div>

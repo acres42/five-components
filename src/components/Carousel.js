@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
-import {classnames} from 'tailwindcss-classnames';
+import badkitty1 from "../assets/images/badkitty1.jpg";
+import badkitty2 from "../assets/images/badkitty2.jpg";
+import badkitty3 from "../assets/images/badkitty3.jpg";
 
 const Carousel = (props) => {
 
     const [slides] = useState([
         {
-            source: "/assets/images/badkitty1.jpg",
+            source: badkitty1,
             title: "Evil"
         },
         {
-            source: "/assets/images/badkitty2.jpg",
+            source: badkitty2,
             title: "No Good"
         },
         {
-            source: "/assets/images/badkitty3.jpg",
+            source: badkitty3,
             title: "Rotten"
         }
     ]);
@@ -35,7 +37,7 @@ const Carousel = (props) => {
     }
 
     return (
-        <div className={classnames(`max-w-xs rounded-xl overflow-hidden bg-${props.bgColor} my-6 mx-2  shadow-${props.shadow} transform -skew-x-3`)}>
+        <div className="max-w-xs rounded-xl overflow-hidden bg-cyan-100 my-6 mx-2 shadow-lg transform -skew-x-3">
             <div>
                 <div>
                     <div>

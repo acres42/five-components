@@ -1,5 +1,6 @@
 import React from 'react';
 import {classnames} from 'tailwindcss-classnames';
+import campfire from '../assets/images/campfire.svg';
 
 class Navbar extends React.Component {
 	constructor(props) {
@@ -38,7 +39,7 @@ class Navbar extends React.Component {
 			<header className={classnames(`rounded-xl overflow-hidden bg-${this.props.bgColor} flex justify-between px-4 sm:py-3 sm:items-center shadow-${this.props.shadow} transform -skew-x-3`)}>
 			{/* <header className="bg-gray-900 flex justify-between px-4 sm:py-3 sm:items-center"> */}
 				<header className="flex items-center justify-between px-4 py-3 sm:p-0">
-						<img className="h-24" src="/assets/campfire.svg" alt="campfire" />
+						<img className="h-24" src={campfire} alt="campfire" />
 						<h2 className="text-white">AC's Component Demo</h2>
 					<div className="sm:hidden">
 						<button
